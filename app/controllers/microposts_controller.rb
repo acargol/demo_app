@@ -17,6 +17,7 @@ class MicropostsController < ApplicationController
 
     begin
       @micropost.to_str
+      @micropost
     rescue => e
     end
 
