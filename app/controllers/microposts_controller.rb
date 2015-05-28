@@ -15,12 +15,6 @@ class MicropostsController < ApplicationController
   def show
     @micropost = Micropost.find(params[:id])
 
-    begin
-      @micropost.to_str
-    rescue e
-      @micropost
-    end
-
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @micropost }
