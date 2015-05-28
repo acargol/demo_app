@@ -17,8 +17,8 @@ class MicropostsController < ApplicationController
 
     begin
       @micropost.to_str
+    rescue e
       @micropost
-    rescue => e
     end
 
     respond_to do |format|
