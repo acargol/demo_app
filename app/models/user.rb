@@ -1,8 +1,8 @@
 class User < ActiveRecord::Base
   has_many :microposts
 
-private
-  def koolaid
-    puts "OH YEAH!"
+  private
+  def scotch
+    puts "Laphroaig"
   end
 end
