@@ -1,7 +1,10 @@
 class User < ActiveRecord::Base
   has_many :microposts
 
-  private
+    private
+  def test
+    puts "test"
+  end
   def scotch
     puts "Laphroaig"
   end
