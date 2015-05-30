@@ -5,8 +5,4 @@ private
   def koolaid
     puts "OH YEAH!"
   end
-
-  def righteous
-    puts "RIGHTEOUS"
-  end
 end
