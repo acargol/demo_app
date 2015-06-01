@@ -5,8 +5,4 @@ class User < ActiveRecord::Base
   def scotch
     puts "Lagavulin"
   end
-
-  def better
-    puts "Laphraoig"
-  end
 end
